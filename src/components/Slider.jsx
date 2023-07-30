@@ -9,12 +9,12 @@ export default function SliderComponent() {
       dots: true,
       infinite: true,
       speed: 500,
-      slidesToShow: 3,
+      slidesToShow: 1,
       slidesToScroll: 1
     }
     return (
       <div>
-        <h2> Single Item</h2>
+        <h2> Depoimento dos nossos clientes</h2>
         <section className={styles.section}>
         <Slider {...settings}>
           <article>

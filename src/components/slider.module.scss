@@ -22,7 +22,12 @@ $texts:#FDFDFD;
 
 
 .section{
+  padding: 20px;
+  height: 400px;
  article{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   img{
   width: 80px;
   height: 80px;
@@ -31,7 +36,6 @@ $texts:#FDFDFD;
   margin: auto auto;
   }
   span{
-  width: 421px; 
   font-family: 'Helv'; 
   }
  }
