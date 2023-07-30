@@ -1,0 +1,38 @@
+$bg-header: #212121;
+$bg-button: #725324;
+$color-titles:#050505;
+$focus-text:#EBBA34;
+$simple-text:#FDFDFD;
+$bg-firstSection:#7A7A7A;
+$bg-secondSection:#6A6A6A;
+$bg-lastSection:#484848;
+$bg-sections:#393939;
+$gray-text:#BCBCBC;
+$texts:#FDFDFD;
+
+@font-face {
+  font-family: 'Galyon-bold';
+  src: url('../fonts/Galyon-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Helv';
+  src: url('../fonts/Heln.otf');
+}
+
+
+.section{
+ article{
+  img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;  
+  object-fit: cover;
+  margin: auto auto;
+  }
+  span{
+  width: 421px; 
+  font-family: 'Helv'; 
+  }
+ }
+}
