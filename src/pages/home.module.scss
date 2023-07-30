@@ -21,6 +21,13 @@ $texts:#FDFDFD;
 }
 
 .main{
+  .special{
+  padding: 20px;
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  background-color: $bg-firstSection;  
+  }
   h2{
     font-size: 2rem;
     font-family: 'Galyon-bold';
@@ -65,26 +72,169 @@ button{
 .depoiments{
   padding: 20px;
   background-color: $bg-firstSection;
-  display: flex;
+  height: 600px;
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      article{
+        font-size: 1.3rem;
+      
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        p{
+        font-family: 'Galyon-bold';  
+        }
+        span{
+        font-family: 'Helv';
+        width: 321px;
+        }  
+        img{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%; 
+        object-fit: cover; 
+        }
+        }
+  
+}
+
+.modalitys{
+padding: 20px;
+background-color: $bg-secondSection;
+color: $texts;
+p{
+font-size: 1.3rem;
+width: 331px;
+margin-bottom: 12px;  
+}  
+}
+
+.profissionals{
+padding: 20px;
+background-color: $bg-lastSection; 
+color: $color-titles;
 article{
-  margin-top: 60px;
   display: flex;
-flex-direction: column;
-gap: 12px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  gap: 12px;
+  margin-bottom: 20px;
+  
+  p{
+  color: $gray-text;  
+  position: absolute;
+  left: 430px;
+  font-family: 'Galyon-bold';
+  }
   span{
-    font-family: 'Helv';
-    width: 421px;
+  color: $gray-text;  
+  width: 500px;
+  margin-top: 40px;
+  font-family: 'Helv';  
+  }
+  img{
+    width: 400px;  
+  }
+ 
+}
+article:nth-child(3){
+  position: relative;
+  img{
+  position: absolute;
+  right: 0;  
   }
   p{
-    font-family: 'Galyon-bold';
+  position: absolute;
+  left: 1730px;
+  width: 100%;  
   }
+  span{
+  margin-left: 1420px;  
+  text-align: end;
+  }
+  }
+}
 
-align-items: center;
-text-align: center;
-img{
-border-radius: 50%;
-object-fit: cover;  
-}  
-}  
+.athletes{
+background-color: $bg-firstSection;
+padding: 12px;
+article{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 32px auto;
+  font-size: 1.3rem;
+  p{
+    font-family: 'Galyon-bold'; 
+    margin: 12px 0px; 
+    }
+    span{
+    font-family: 'Helv';
+    width: 331px;  
+    }
+    img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;  
+    }  
+}
+}
+
+.plus{
+  padding: 20px;
+  background-color: $bg-lastSection;
+section{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  article{
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 300px;
+    text-align: center;
+    background-color: $bg-sections;
+    img{
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    opacity: 30%; 
+    }
+    p{
+    font-family: 'Galyon-bold';
+    position: absolute; 
+    left: 60px;
+    top: 80px;
+    z-index: 1000; 
+    color: $texts;
+    text-transform: uppercase;
+    }
+    span{
+    font-family: 'Helv'; 
+    color: $gray-text;
+    margin:12px 0px; 
+    padding: 12px;
+    }
+    button{
+    background-color: $bg-button;
+    padding: 16px 24px;
+    margin: 12px 0px;
+    border-radius: 12px;
+    border: none;
+    color: $texts;
+    width: 200px;
+    height: 60px;
+    margin: 16px auto;
+    font-family: 'Galyon-bold';
+    &:hover{
+    cursor: pointer;  
+    }
+    }
+  }
+}
+
 }
