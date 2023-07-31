@@ -1,0 +1,147 @@
+$bg-header: #212121;
+$bg-button: #725324;
+$color-titles:#050505;
+$focus-text:#EBBA34;
+$simple-text:#FDFDFD;
+$bg-firstSection:#7A7A7A;
+$bg-secondSection:#6A6A6A;
+$bg-lastSection:#484848;
+$bg-sections:#393939;
+$gray-text:#BCBCBC;
+$texts:#FDFDFD;
+
+@font-face {
+  font-family: 'Galyon-bold';
+  src: url('../fonts/Galyon-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Montepetrum regular.ttf');
+}
+
+@font-face {
+  font-family: 'Helv';
+  src: url('../fonts/Heln.otf');
+}
+
+
+.us{
+padding: 20px;
+width: 100%;
+height: 100%;
+background-color: $bg-sections;
+h2{
+font-size: 3rem;
+font-family: 'Galyon-bold';
+color: $focus-text;  
+}
+h3{
+  font-family: 'Galyon-bold';
+  color: $texts;
+  margin-top: 12px;
+  margin-bottom: 4px; 
+  }
+article{
+p{
+color: $gray-text;
+font-family: 'Helv';
+margin-left: 20px;
+width: 450px;  
+}
+span{
+display: block;
+color: $gray-text;
+font-family: 'Helv';  
+}
+} 
+.button{
+  background-color: $bg-button;
+  color: $texts;
+  font-family: 'Galyon-bold';
+  padding: 12px;
+  width: 200px;
+  height: 60px;
+  text-transform: uppercase;
+  border-radius: 12px;
+  border: none;
+  margin: 32px 0px;
+  &:hover{
+  cursor: pointer;  
+  }
+}  
+}
+
+.instalations{
+img{
+cursor: pointer; 
+}
+.principal{
+  width: 800px;
+  height: 600px;
+  border-radius: 8px;
+  border: 2px solid $focus-text;
+}
+.gallery{  
+display: flex;
+gap: 24px;
+align-items: center;
+margin:8px 0px;
+img{
+width: 250px;
+height: 150px;
+border-radius: 8px; 
+&:hover{
+  border: 2px solid $focus-text;  
+}
+}  
+}
+}
+
+.accord{
+  button{
+  border-radius: 12px;
+  border: 1px solid $focus-text;
+  width: 460px;
+  text-align: start;
+  font-size: 1.2rem;
+  font-family: 'Helv';
+  color: $texts;
+  background-color: $bg-header;  
+  }
+  p{
+    color: $gray-text;
+    font-family: 'Helv';
+    width: 460px;
+    background-color: $bg-header;  
+    padding: 20px;
+  }
+}
+
+.header{
+display: flex;
+align-items: center;
+background-color: $bg-header;
+border-radius: 12px;
+border: 1px solid $focus-text;
+img{
+cursor: pointer;  
+}  
+}
+
+.deps{
+display: flex;
+gap: 12px;
+margin-bottom: 20px;
+img{
+width: 300px;
+height: 400px;
+object-fit: cover;  
+}
+}
+
+.events{
+img{
+width: 800px;  
+}  
+}

@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom'
+import { Outlet,Link } from 'react-router-dom'
 import style from './rootLayout.module.scss'
 import logo from '../assets/XHEALTH.svg'
 
@@ -11,11 +11,11 @@ export default function RootLayout(){
         <img src={logo} alt="" />
       </div>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Coachs</li>
-        <li>Plans</li>
+        <Link to={'/'}>Home</Link>
+        <Link to={'/about'}>About</Link>
+        <Link to={'/services'}>Services</Link>
+        <Link to={'/coachs'}>Coachs</Link>
+        <Link to={'/plans'}>Plans</Link>
         <button>sign in</button>
       </ul>
     </nav>

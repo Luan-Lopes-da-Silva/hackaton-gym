@@ -67,8 +67,10 @@ color: $texts;
   gap: 20px; 
   align-items: center;
   margin-right: 16px;
-  li{
+  a{
   font-size: 2.3rem;
+  color: $texts;
+  text-decoration: none;
   &:hover{
   cursor: pointer;
   text-decoration: underline;  
