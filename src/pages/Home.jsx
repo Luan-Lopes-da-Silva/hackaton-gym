@@ -2,9 +2,9 @@ import styles from './home.module.scss'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Img1 from '../assets/albert-dera-ILip77SbmOE-unsplash.jpg'
-import img2 from '../assets/thisisengineering-raeng-o6jUolZ7QJk-unsplash.jpg'
-import img3 from '../assets/subhaan-saleem-Jf7hr7ZQzg8-unsplash.jpg'
-import img4 from '../assets/yilmaz-akin-FPKtCl74Hfs-unsplash.jpg'
+import img2 from '../assets/f1.jpg'
+import img3 from '../assets/n1.jpg'
+import img4 from '../assets/p3.jpg'
 import img5 from '../assets/malik-skydsgaard-CafVSOyraI8-unsplash.jpg'
 import img6 from '../assets/quino-al-l__g1muWh0U-unsplash.jpg'
 import img7 from '../assets/jonathan-borba-WdjFdP3zj20-unsplash.jpg'
@@ -121,13 +121,13 @@ return(
         Pedro Moraes é um renomado fisioterapeuta esportiva com mais de 15 anos de experiência no cuidado de atletas profissionais e amadores. Sua paixão pelo esporte e sua dedicação à reabilitação e prevenção de lesões tornaram-na uma referência na área. Ela possui formação especializada em técnicas de terapia manual, liberação miofascial e exercícios terapêuticos. Seu trabalho é fundamental para o bem-estar e o desempenho dos atletas, garantindo uma recuperação segura e eficiente após lesões e aprimorando a performance deles para que alcancem seus objetivos esportivos.</span>
       </article>
       <article>
-        <img src={img3} alt="" />
+        <img src={img4} alt="" />
         <p>Rodrigo Almeida</p>
         <span>Personal Trainer e Coach de Alta Performance
         Rodrigo Almeida é um personal trainer altamente requisitado, conhecido por seus resultados impressionantes com atletas profissionais e entusiastas do fitness. Sua abordagem personalizada e motivadora tem ajudado inúmeros clientes a atingir suas metas de condicionamento físico e superar seus próprios limites. Com uma vasta experiência em treinamento de força, treinos funcionais e periodização do treinamento, Rodrigo desenvolve programas sob medida para cada indivíduo, levando em conta suas necessidades específicas e objetivos. Sua paixão pelo esporte e sua energia contagiante inspiram seus clientes a se dedicarem ao máximo para alcançar um desempenho de alta performance.</span>
       </article>
       <article>
-        <img src={img4} alt="" />
+        <img src={img3} alt="" />
         <p>Laura Santos</p>
         <span>Laura Santos é uma nutricionista esportiva altamente conceituada, reconhecida por sua abordagem holística e baseada em evidências para a nutrição esportiva. Com uma formação sólida em nutrição e fisiologia do exercício, Laura trabalha com atletas de diferentes modalidades para otimizar seu desempenho, recuperação e bem-estar geral. Sua expertise inclui a elaboração de planos alimentares personalizados que atendem às necessidades específicas de cada atleta, maximizando a ingestão de nutrientes essenciais para o sucesso esportivo. Ela também fornece orientações para o controle do peso, a hidratação adequada e a suplementação estratégica, sempre focada na saúde e no rendimento dos seus clientes.</span>
       </article>
