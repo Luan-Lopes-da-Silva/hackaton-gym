@@ -1,0 +1,105 @@
+$bg-header: #212121;
+$bg-button: #725324;
+$color-titles:#050505;
+$focus-text:#EBBA34;
+$simple-text:#FDFDFD;
+$bg-firstSection:#7A7A7A;
+$bg-secondSection:#6A6A6A;
+$bg-lastSection:#484848;
+$bg-sections:#393939;
+$gray-text:#BCBCBC;
+$texts:#FDFDFD;
+$text:#949494;
+
+@font-face {
+  font-family: 'Galyon-bold';
+  src: url('../fonts/Galyon-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Montepetrum regular.ttf');
+}
+
+@font-face {
+  font-family: 'Helv';
+  src: url('../fonts/Heln.otf');
+}
+
+
+.section{
+padding: 20px;
+background-color: $bg-sections;
+
+p{
+font-size: 1.5rem;
+color: $texts;  
+}
+h2,h3,p{
+font-family: 'Galyon-bold';  
+}
+h2{
+font-size: 3rem;
+color: $focus-text;  
+}
+.card1,
+.card3,
+.card2{
+padding: 32px;
+border-radius: 20px;
+margin: 32px 0px;
+h3{
+font-size: 2.5rem;  
+}
+p{
+font-size: 1.5rem;
+width: 650px;
+margin-bottom: 8px;  
+}
+}
+.card1{
+  background-color: $gray-text;
+  width: max-content;
+  h3{
+    color: $text;
+  }
+  p{
+    color: $color-titles;
+  }
+}
+.card2{
+  background-color: $bg-firstSection;
+  width: max-content;
+  h3{
+    color: $gray-text;
+  }
+  p{
+    color: $color-titles;
+  }
+}
+.card3{
+  background-color: $color-titles;
+  width: max-content;
+  p{
+    color: $gray-text;
+  }
+  h3{
+    color: $focus-text;
+  }
+}
+button{
+margin-top: 30px;
+font-family: 'Galyon-bold';
+padding: 12px 24px;
+width: 300px;
+height: 60px;
+font-size: 1.5rem;
+text-transform: uppercase;
+background-color: $focus-text; 
+border-radius: 12px;
+border: none; 
+&:hover{
+cursor: pointer;
+}
+}  
+}
