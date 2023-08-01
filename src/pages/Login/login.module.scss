@@ -33,7 +33,8 @@ display: grid;
 grid-template-columns: 1000px 1fr;
 img{
 grid-column: 1;
-width: 100%;  
+width: 100%;
+height: 100%;  
 }
 form{
 display: grid;
@@ -59,8 +60,8 @@ position: relative;
 .eye{
 position: absolute;
 width: 32px;
-top: 64.5%;
-left: 77%;
+top: 81.5%;
+left: 84%;
 &:hover{
 cursor: pointer;  
 }

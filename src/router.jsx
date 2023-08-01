@@ -7,6 +7,7 @@ import Coachs from "./pages/Coachs";
 import Plans from "./pages/Plans";
 import Login from "./pages/Login/Login";
 import Signin from "./pages/Signin/Signin";
+import Student from "./pages/StudentD/Student";
 
 const router = createBrowserRouter([
 {
@@ -34,6 +35,9 @@ element:<Login/>
 },{
 path:'/signin',
 element:<Signin/>  
+},{
+path:'/student',
+element:<Student/>  
 }
 ])
 

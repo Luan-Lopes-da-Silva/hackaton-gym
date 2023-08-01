@@ -1,5 +1,5 @@
 import style from './signin.module.scss'
-import Bg from '../../assets/Gallery/acad1.jpg'
+import Bg from '../../assets/samuel-girven-VJ2s0c20qCo-unsplash.jpg'
 export default function Signin(){
 return(
 <>
