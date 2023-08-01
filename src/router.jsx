@@ -11,6 +11,7 @@ import Student from "./pages/Student/Student";
 import Fisio from "./pages/Fisio/Fisio";
 import Impedance from "./pages/Impedance/Impedance";
 import Personal from "./pages/Personal/Personal";
+import Agendate from "./pages/Agendate/Agendate";
 
 const router = createBrowserRouter([
 {
@@ -31,6 +32,9 @@ element:<Coachs/>
 },{
 path:'/plans',
 element:<Plans/>  
+},{
+path:'/agendate',
+element:<Agendate/>    
 }]  
 },{
 path:'/login',

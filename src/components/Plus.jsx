@@ -8,7 +8,7 @@ export default function Plus(props){
   <header className={style.header}>
     <nav>
       <div>
-        <img src={logo} alt="" />
+        <Link to={'/'}><img src={logo} alt="" /></Link>
       </div>
       <ul>
         <Link to={'/'}>Home</Link>
@@ -29,7 +29,11 @@ export default function Plus(props){
     </div>
     <div className={style.secondColumn}>
     <p>{props.content}</p>
-    <button>Ver Profissionais</button>
+    {props.value === 'agendar'?(
+    <Link to={'/agendate'}><button>Agendar</button></Link>  
+    ):(
+      <Link to={'/coachs'}><button>Ver profissionais</button></Link>  
+    )}
     </div>  
     </div>
     </article>

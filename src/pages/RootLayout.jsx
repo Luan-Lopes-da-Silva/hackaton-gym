@@ -8,7 +8,7 @@ export default function RootLayout(){
     <header className={style.header}>
     <nav>
       <div>
-        <img src={logo} alt="" />
+        <Link to={'/'}><img src={logo} alt="" /></Link>
       </div>
       <ul>
         <Link to={'/'}>Home</Link>

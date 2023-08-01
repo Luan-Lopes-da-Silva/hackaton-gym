@@ -1,6 +1,7 @@
 import styles from './home.module.scss'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { Link } from 'react-router-dom';
 import Img1 from '../assets/albert-dera-ILip77SbmOE-unsplash.jpg'
 import img2 from '../assets/f1.jpg'
 import img3 from '../assets/n1.jpg'
@@ -161,19 +162,19 @@ return(
           <p>Bio Impedância</p>
           <img src={img8} alt="" />
           <span>A bioimpedância é um método de análise da composição corporal baseado na medida da resistência elétrica dos tecidos do corpo.</span>
-          <button>MAIS INFOS</button>
+          <Link to={'/impedance'}><button>MAIS INFOS</button></Link>
         </article>
         <article>
           <p>Personal Trainer</p>
           <img src={img9} alt="" />
           <span>Um Personal Trainer é um profissional capacitado para oferecer orientação personalizada, motivação e suporte individualizado em busca de objetivos específicos relacionados à saúde, condicionamento físico e bem-estar.</span>
-          <button>MAIS INFOS</button>
+          <Link to={'/personal'}><button>MAIS INFOS</button></Link>
         </article>
         <article>
           <p>Fisioterapeuta</p>
           <img src={img2} alt="" />
           <span>O fisioterapeuta é um profissional de saúde altamente capacitado, especializado em avaliar, tratar e prevenir distúrbios do movimento e funcionalidade do corpo humano.</span>
-          <button>MAIS INFOS</button>
+          <Link to={'/fisio'}><button>MAIS INFOS</button></Link>
         </article>
       </section>
     </section>

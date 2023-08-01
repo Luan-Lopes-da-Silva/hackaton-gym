@@ -5,8 +5,9 @@ export default function Impedance(){
   <>
   <Plus
   title={'Bio Impedancia'}
-  benefitsTitle={'Vantagens da orientação nutricional e funções do nutricionista'}
+  benefitsTitle={'Beneficios da Bio Impedância'}
   img={img}
+  value={'agendar'}
   content={'A bioimpedância é um método de análise da composição corporal baseado na medida da resistência elétrica dos tecidos do corpo.Essa técnica é capaz de estimar a quantidade de massa magra (músculos e ossos) e massa gorda (gordura corporal) de uma pessoa. A análise de bioimpedância é realizada através de um aparelho que envia uma corrente elétrica de baixa intensidade pelo corpo. A resistência elétrica dos tecidos é medida, e a análise do tempo que a corrente leva para percorrer o corpo é usada para calcular a composição corporal.'}
   >
   <p>Precisão: A bioimpedância oferece resultados precisos na avaliação da massa magra e massa gorda, permitindo uma melhor compreensão da composição corporal do indivíduo.</p>
