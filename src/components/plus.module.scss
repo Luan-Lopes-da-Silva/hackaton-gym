@@ -82,3 +82,79 @@ color: $texts;
   }  
   }
 }
+
+
+.footer{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  font-family: 'Helv';
+  height: 70px;
+  padding: 0 20px;
+  }
+  
+
+.main{
+padding: 20px;
+background-color: $bg-sections;
+h1{
+text-align: center;
+font-family: 'Galyon-bold';
+font-size: 3rem;
+color: $texts;  
+}
+.info{
+ display: grid;
+ grid-template-columns: 700px 1fr;
+  .firstColumn{
+    img{
+    width: 600px;  
+    }  
+    }
+  .secondColumn{
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  padding: 120px;
+ 
+  p{
+  width: 340px;
+  font-size: 1.3rem;
+  font-family: 'Helv';
+  text-align: start;
+  margin-bottom: 120px;
+  color: $gray-text;
+  }
+  button{
+  width: max-content;
+  padding: 16px 24px;
+  color: $color-titles;
+  text-transform: uppercase;
+  font-family: 'Galyon-bold';
+  border-radius: 12px;
+  border: none;
+  background-color: $focus-text; 
+  &:hover{
+  cursor: pointer;  
+  } 
+  }  
+  }
+}
+.subtitle{
+text-align: center;
+margin: 12px 0px; 
+font-family: 'Galyon-bold';
+color: $texts; 
+}
+
+.benefits{
+background-color: $bg-header;
+padding: 20px;
+border-radius: 12px;
+p{
+color: $gray-text;
+margin-bottom: 8px; 
+font-size: 1.2rem;
+}  
+}
+}

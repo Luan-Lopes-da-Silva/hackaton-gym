@@ -7,7 +7,10 @@ import Coachs from "./pages/Coachs";
 import Plans from "./pages/Plans";
 import Login from "./pages/Login/Login";
 import Signin from "./pages/Signin/Signin";
-import Student from "./pages/StudentD/Student";
+import Student from "./pages/Student/Student";
+import Fisio from "./pages/Fisio/Fisio";
+import Impedance from "./pages/Impedance/Impedance";
+import Personal from "./pages/Personal/Personal";
 
 const router = createBrowserRouter([
 {
@@ -38,6 +41,15 @@ element:<Signin/>
 },{
 path:'/student',
 element:<Student/>  
+},{
+path:'/fisio',
+element:<Fisio/>  
+},{
+path:'/impedance',
+element:<Impedance/>,  
+},{
+path:'/personal',
+element:<Personal/>  
 }
 ])
 
