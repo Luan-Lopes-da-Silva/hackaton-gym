@@ -1,0 +1,120 @@
+$bg-header: #212121;
+$bg-button: #725324;
+$color-titles:#050505;
+$focus-text:#EBBA34;
+$simple-text:#FDFDFD;
+$bg-firstSection:#7A7A7A;
+$bg-secondSection:#6A6A6A;
+$bg-lastSection:#484848;
+$bg-sections:#393939;
+$gray-text:#BCBCBC;
+$texts:#FDFDFD;
+
+@font-face {
+  font-family: 'Galyon-bold';
+  src: url('../fonts/Galyon-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Montepetrum regular.ttf');
+}
+
+@font-face {
+  font-family: 'Helv';
+  src: url('../fonts/Heln.otf');
+}
+
+.main{
+background-color: $bg-sections;
+padding: 20px;
+h1{
+padding: 20px;
+text-align: center;
+color: $texts;
+font-family: 'Galyon-bold';
+font-size: 3rem;  
+}
+h2{
+  margin-top: 32px;
+  text-align: center;
+  font-family: 'Galyon-bold';
+  color: $texts;
+  margin-bottom: 16px;
+}  
+.profissional{
+display: grid;
+grid-template-columns: 700px 1fr;
+gap: 40px;
+margin: auto auto;
+img{
+width: 700px;
+grid-column: 1;  
+}
+.secondColumn{
+  p{
+    padding-top: 32px;
+    width: 450px; 
+    color: $texts;
+    font-size: 1.5rem;
+    font-family: 'Helv';
+    margin-bottom: 20px; 
+  }
+  button{
+   width: 150px;
+   padding: 12px 24px;
+   border-radius: 12px;
+   border: none;
+   font-family: 'Galyon-bold';
+   background-color: $focus-text;
+   &:hover{
+   cursor: pointer; 
+   } 
+  }
+  .rating{
+    img{
+    width: 40px;
+    height: 40px;  
+    }
+    display: flex;
+    gap: 12px;
+    margin: 20px 0px; 
+  } 
+}
+}
+.depoiments{
+display: flex;
+gap: 20px;
+justify-content: center;
+.depoiment{
+background-color: $bg-header;
+text-align: center;
+padding: 20px;
+border-radius: 12px;
+margin-bottom: 20px;
+img{
+width: 50px;
+height: 50px;
+border-radius: 50%; 
+object-fit: cover; 
+}
+h3{
+font-family: 'Galyon-bold';
+color: $texts; 
+text-transform: uppercase; 
+}
+p{
+font-family: 'Helv';
+width: 350px;
+margin-top: 12px;
+color: $texts;  
+}
+.rating{
+display: flex;
+gap: 12px;
+justify-content: center;
+margin-top: 20px; 
+} 
+}  
+}
+}

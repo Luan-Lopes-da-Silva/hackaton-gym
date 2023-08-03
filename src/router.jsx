@@ -12,6 +12,9 @@ import Fisio from "./pages/Fisio/Fisio";
 import Impedance from "./pages/Impedance/Impedance";
 import Personal from "./pages/Personal/Personal";
 import Agendate from "./pages/Agendate/Agendate";
+import PersonalInfos from "./pages/Coachs/PersonalInfos";
+import NutriInfos from "./pages/Coachs/NutriInfos";
+import Physio from "./pages/Coachs/Physio";
 
 const router = createBrowserRouter([
 {
@@ -35,6 +38,15 @@ element:<Plans/>
 },{
 path:'/agendate',
 element:<Agendate/>    
+},{
+path:'/personalinfos',
+element:<PersonalInfos/> 
+},{
+path:'/nutriinfos',
+element:<NutriInfos/>  
+},{
+path:'/physioinfos',
+element:<Physio/>  
 }]  
 },{
 path:'/login',

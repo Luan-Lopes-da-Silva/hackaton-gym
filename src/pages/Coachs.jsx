@@ -8,6 +8,7 @@ import f1 from '../assets/f1.jpg'
 import f2 from '../assets/f2.jpg'
 import f3 from '../assets/f3.jpg'
 import style from './coachs.module.scss'
+import { Link } from 'react-router-dom'
 
 export default function Coachs(){
   return(
@@ -19,15 +20,15 @@ export default function Coachs(){
   <div className={style.cards}>
     <div>
     <p>Carlos Mendes</p>
-    <img src={p1} alt="" />
+    <Link to={'/personalinfos'}><img src={p1} alt="" /></Link>
     </div>
     <div>
     <p>Camila Silva</p>
-    <img src={p2} alt="" />
+    <Link to={'/personalinfos'}><img src={p2} alt="" /></Link>
     </div>
     <div>
     <p>Rodrigo Almeida</p>
-    <img src={p3} alt="" />
+    <Link to={'/personalinfos'}><img src={p3} alt="" /></Link>
     </div>
   </div>
   </article>
@@ -36,15 +37,15 @@ export default function Coachs(){
   <div className={style.cards}>
     <div>
     <p>Laura Santos</p>
-    <img src={n1} alt="" />
+    <Link to={'/nutriinfos'}><img src={n1} alt="" /></Link>
     </div>
     <div>
     <p>Rafael Lima</p>
-    <img src={n2} alt="" />
+    <Link to={'/nutriinfos'}><img src={n2} alt="" /></Link>
     </div>
     <div>
     <p>Isabela Ferreira</p>
-    <img src={n3} alt="" />
+    <Link to={'/nutriinfos'}><img src={n3} alt="" /></Link>
     </div>
   </div>
   </article>
@@ -53,15 +54,15 @@ export default function Coachs(){
   <div className={style.cards}>
     <div>
     <p>Pedro Moraes</p>
-    <img src={f1} alt="" />
+    <Link to={'/physioinfos'}><img src={f1} alt="" /></Link>
     </div>
     <div>
     <p>Gabriel Silva</p>
-    <img src={f2} alt="" />
+    <Link to={'/physioinfos'}><img src={f2} alt="" /></Link>
     </div>
     <div>
     <p>Marina Almeida</p>
-    <img src={f3} alt="" />
+    <Link to={'/physioinfos'}><img src={f3} alt="" /></Link>
     </div>
   </div>
   </article>

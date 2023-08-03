@@ -1,0 +1,70 @@
+$bg-header: #212121;
+$bg-button: #725324;
+$color-titles:#050505;
+$focus-text:#EBBA34;
+$simple-text:#FDFDFD;
+$bg-firstSection:#7A7A7A;
+$bg-secondSection:#6A6A6A;
+$bg-lastSection:#484848;
+$bg-sections:#393939;
+$gray-text:#BCBCBC;
+$texts:#FDFDFD;
+
+@font-face {
+  font-family: 'Galyon-bold';
+  src: url('../fonts/Galyon-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Mont';
+  src: url('../fonts/Montepetrum regular.ttf');
+}
+
+@font-face {
+  font-family: 'Helv';
+  src: url('../fonts/Heln.otf');
+}
+
+.container{
+background-color: $bg-sections;
+padding: 20px;
+width: 100%;
+height: 100vh;
+h1{
+margin-bottom: 24px; 
+font-size: 2.5rem;
+font-family: 'Galyon-bold';
+color: $texts; 
+}
+.form{
+label,p{
+font-family: 'Helv';
+display: block;
+margin-bottom: 4px;
+color: $gray-text;  
+}
+input,select{
+background-color: $bg-header;
+color: $texts;
+padding: 8px 12px;
+border: none;
+border-radius: 8px;
+margin-bottom: 12px;  
+}
+button{
+display: block;
+margin: 24px 0px;
+background-color: $focus-text;
+color: $color-titles;
+width: 150px;
+padding: 12px 24px;
+text-transform: uppercase;
+font-family: 'Galyon-bold';
+border-radius: 12px; 
+border: none; 
+&:hover{
+cursor: pointer;  
+}
+}
+}  
+}

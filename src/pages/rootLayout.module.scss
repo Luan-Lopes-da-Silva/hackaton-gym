@@ -74,6 +74,9 @@ color: $texts;
   &:hover{
   cursor: pointer;
   text-decoration: underline;  
+  }
+  &.ativo{
+  text-decoration: underline;  
   } 
   }
   button{
