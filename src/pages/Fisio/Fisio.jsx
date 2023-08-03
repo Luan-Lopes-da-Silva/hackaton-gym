@@ -1,6 +1,11 @@
+import { useEffect } from 'react'
 import fisio from '../../assets/physical-therapy-6292317_1280 (1) (1).jpg'
 import Plus from '../../components/Plus'
 export default function Fisio(){
+const newTitle = 'Physio'
+useEffect(()=>{
+  document.title = newTitle  
+},[])  
 return(
 <Plus
 title={'Fisioterapeuta'}

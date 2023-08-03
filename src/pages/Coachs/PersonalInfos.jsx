@@ -3,8 +3,13 @@ import img from "../../assets/subhaan-saleem-Jf7hr7ZQzg8-unsplash-removebg (1).j
 import avatar1 from "../../assets/Avatars/aiony-haust-3TLl_97HNJo-unsplash.jpg"
 import avatar6 from "../../assets/Avatars/henry-tuchez-ge5VYVTZMtc-unsplash.jpg"
 import avatar8 from "../../assets/Avatars/philipp-wuthrich-5n3JP9WAJTs-unsplash.jpg"
+import { useEffect } from "react";
 
 export default function PersonalInfos(){
+const newTitle = 'Personal - Rodrigo Almeida'
+useEffect(()=>{
+document.title=newTitle
+},[])
 return(
 <>
 <LayoutCoachs

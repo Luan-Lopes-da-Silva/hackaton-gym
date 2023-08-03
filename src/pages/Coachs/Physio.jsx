@@ -3,8 +3,13 @@ import avatar5 from "../../assets/Avatars/erwi-vZurgrIe60w-unsplash.jpg"
 import avatar7 from "../../assets/Avatars/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg"
 import avatar9 from "../../assets/Avatars/stephanie-liverani-Zz5LQe-VSMY-unsplash.jpg"
 import LayoutCoachs from "../../components/LayoutCoachs"
+import { useEffect } from 'react'
 
 export default function Physio(){
+const newTitle = 'Fisio - Pedro Moraes'
+useEffect(()=>{
+document.title=newTitle
+},[])
 return(
 <>
 <LayoutCoachs

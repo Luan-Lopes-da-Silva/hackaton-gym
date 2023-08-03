@@ -3,9 +3,14 @@ import Bg from '../../assets/samuel-girven-VJ2s0c20qCo-unsplash.jpg'
 import style from './login.module.scss'
 import see from '../../assets/Vector.svg'
 import seeOf from '../../assets/Vector2.svg'
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 export default function Login(){
   const refInput = useRef(null)
+  const newTitle = 'Login'
+
+  useEffect(()=>{
+    document.title = newTitle
+  },[])
 
   function showPassword(ev){
   if(refInput.current.type === 'password'){

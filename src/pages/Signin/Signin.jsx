@@ -1,6 +1,11 @@
 import style from './signin.module.scss'
 import Bg from '../../assets/samuel-girven-VJ2s0c20qCo-unsplash.jpg'
+import { useEffect } from 'react'
 export default function Signin(){
+  const newTitle = 'Signin'
+  useEffect(()=>{
+  document.title= newTitle
+  },[])
 return(
 <>
 <main className={style.container}>

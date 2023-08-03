@@ -3,7 +3,7 @@ import acad1 from '../assets/Gallery/acad1.jpg'
 import acad2 from '../assets/Gallery/acad2.jpg'
 import acad3 from '../assets/Gallery/acad3.jpg'
 import acad4 from '../assets/Gallery/acad4.jpg'
-import { useRef } from 'react'
+import { useEffect, useRef } from 'react'
 import { Accordion,AccordionItem} from '@szhsin/react-accordion'
 import expand from '../assets/expand_more_FILL0_wght400_GRAD0_opsz48 (1).svg'
 import dep1 from '../assets/Dep1.jpg'
@@ -14,7 +14,10 @@ import galleryPhotos from '../assets/Gallery/Galery.svg'
 
 export default function About(){
   const ref = useRef(null)
-  
+  const newTitle = 'About'
+  useEffect(()=>{
+    document.title = newTitle
+  },[])
   function gallery(ev){
     const src = ref.current.src
     ref.current.src = ev.currentTarget.src

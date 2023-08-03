@@ -7,7 +7,12 @@ import image5 from '../assets/Services/5.jpg'
 import image6 from '../assets/Services/6.jpg'
 import image7 from '../assets/Services/7.jpg'
 import image8 from '../assets/Services/8.jpg'
+import { useEffect } from 'react'
 export default function Services(){
+  const newTitle = 'Services'
+  useEffect(()=>{
+    document.title = newTitle
+  },[])
 return(
   <>
   <section className={style.services}>

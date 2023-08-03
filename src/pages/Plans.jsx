@@ -1,5 +1,10 @@
+import { useEffect } from 'react'
 import style from './plans.module.scss'
 export default function Plans(){
+const newTitle = 'Plans'
+useEffect(()=>{
+document.title=newTitle
+},[])
 return(
 <>
 <section className={style.section}>

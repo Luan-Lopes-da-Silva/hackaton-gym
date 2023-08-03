@@ -1,6 +1,11 @@
 import Plus from "../../components/Plus";
 import img from "../../assets/depositphotos_152792404-free-stock-photo-scientist-in-chemical-lab-removebg-preview (1).jpg"
+import { useEffect } from "react";
 export default function Impedance(){
+const newTitle = 'Impedance'
+useEffect(()=>{
+  document.title = newTitle
+},[])
   return(
   <>
   <Plus

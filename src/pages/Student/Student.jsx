@@ -2,7 +2,12 @@ import style from './student.module.scss'
 import logo from '../../assets/XHEALTH.svg'
 import teacher1 from '../../assets/n1.jpg'
 import teacher2 from '../../assets/p3.jpg'
+import { useEffect } from 'react'
 export default function Student(){
+const newTitle = 'Student'
+useEffect(()=>{
+  document.title = newTitle  
+},[])
 return(
    <>
     <header className={style.header}>

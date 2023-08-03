@@ -3,9 +3,14 @@ import avatar2 from "../../assets/Avatars/alexander-hipp-iEEBWgY_6lA-unsplash.jp
 import avatar3 from "../../assets/Avatars/christopher-campbell-rDEOVtE7vOs-unsplash.jpg"
 import avatar4 from "../../assets/Avatars/duman-photography-w3JKo9UgXFY-unsplash.jpg"
 import LayoutCoachs from "../../components/LayoutCoachs"
+import { useEffect } from 'react'
 
 
 export default function NutriInfos(){
+  const newTitle = 'Nutri - Laura Santos'
+  useEffect(()=>{
+  document.title=newTitle
+  },[])
   return(
   <>
   <LayoutCoachs

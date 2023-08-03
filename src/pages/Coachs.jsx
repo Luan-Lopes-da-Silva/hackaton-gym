@@ -9,8 +9,13 @@ import f2 from '../assets/f2.jpg'
 import f3 from '../assets/f3.jpg'
 import style from './coachs.module.scss'
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 
 export default function Coachs(){
+  const newTitle ='Coachs'
+  useEffect(()=>{
+  document.title=newTitle
+  },[])
   return(
   <>
   <section className={style.container}>

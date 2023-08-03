@@ -1,6 +1,11 @@
 import Plus from "../../components/Plus";
 import img from "../../assets/subhaan-saleem-Jf7hr7ZQzg8-unsplash-removebg (1).jpg"
+import { useEffect } from "react";
 export default function Personal(){
+const newTitle = 'Personal'
+useEffect(()=>{
+document.title = newTitle
+},[])  
 return(
 <>
 <Plus

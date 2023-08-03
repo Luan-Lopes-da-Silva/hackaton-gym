@@ -11,12 +11,12 @@ export default function RootLayout(){
         <Link to={'/'}><img src={logo} alt="" /></Link>
       </div>
       <ul>
-        <Link to={'/'} className={style.ativo}>Home</Link>
+        <Link to={'/'}>Home</Link>
         <Link to={'/about'}>About</Link>
         <Link to={'/services'}>Services</Link>
         <Link to={'/coachs'}>Coachs</Link>
         <Link to={'/plans'}>Plans</Link>
-        <button>sign in</button>
+        <Link to={'/signin'}><button>sign in</button></Link>
       </ul>
     </nav>
     </header>

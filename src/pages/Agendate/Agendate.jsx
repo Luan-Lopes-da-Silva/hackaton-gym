@@ -1,5 +1,10 @@
+import { useEffect } from 'react'
 import style from './agendate.module.scss'
 export default function Agendate(){
+const newTitle = 'Agendate'
+useEffect(()=>{
+document.title = newTitle
+},[])
 return(
 <>
 <main className={style.container}>
